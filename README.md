@@ -2,6 +2,7 @@
 Foram utilizados dois datasets nomeadamente: 
 * historical_stock_prices
 * historical_stocks
+
 Obtidos em [Stock-Prices](https://www.kaggle.com/ehallmar/daily-historical-stock-prices-1970-2018?fbclid=IwAR0mkRuSU1u5GSJDSBPmKbAsJa1gnfJ7GSjYOxuSrqwMwFfNa0UgUzKfhUk)
 
 ## Objetivos
