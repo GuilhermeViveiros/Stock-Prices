@@ -12,7 +12,7 @@ Posteriormente utilizar vários modelos tradicionais de machine learning para pr
 Em segundo lugar, recorrer à utilização de DeepLearning, nomeadamente RNN para comparar resultados com o primeiro modelo e tirar conclusões.
 Por último, proceder ao tunning dos nossos modelos e retirar conclusões pertinentes.
 
-### historical_stocks
+## historical_stocks
 
 
 | 					  |  ticker  			|	exchange	|	name									|	sector	 		 |	industry				  |
@@ -30,7 +30,7 @@ O dataset é constituido por 5 colunas:
 * **sector** refere-se ao setor real em que a empresa em questão opera
 * **industry** especifica o tipo de serviços que podem ser fornecidos pela empresa
 
-### historical_stock_prices
+## historical_stock_prices
 
 | 					  |  ticker  			|	open	|	close	|	adj_close  |	low	 |  high  |  volume |    date      |
 | ------------------- | ------------------- | --------- | --------- | ------------ | ------  | ------ | ------- | ------------ |
@@ -61,14 +61,14 @@ O dataset é constituido por 8 colunas:
 
 
 
-## Algoritmos Machine Learning 
+# Algoritmos Machine Learning 
 
 1. Linear Regression
 2. Support Vectors Classifers for Regression SVR
 3. Decisions Tree / Random Forest
 4. Recurrent Neural Networks (RNN) / LSTM
 
-## Grupo
+# Grupo
 
 * André Guilherme Nunes Viveiros - a81736
 * Guilherme Marques Andrade – a80426
