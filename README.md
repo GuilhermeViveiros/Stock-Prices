@@ -69,8 +69,8 @@ O dataset é constituido por 8 colunas:
 
 ## Grupo
 
-André Guilherme Nunes Viveiros - a81736
-Guilherme Marques Andrade – a80426
-Rodrigo Teixeira Pereira – pg38424
+* André Guilherme Nunes Viveiros - a81736
+* Guilherme Marques Andrade – a80426
+* Rodrigo Teixeira Pereira – pg38424
 
 
