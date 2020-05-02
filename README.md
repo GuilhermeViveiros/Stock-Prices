@@ -1,16 +1,16 @@
 # Stock-Prices
-Foram utilizados dois datasets nomeadamente: 
+Two Datasets were used:
 * historical_stock_prices
 * historical_stocks
 
-Obtidos em [Stock-Prices](https://www.kaggle.com/ehallmar/daily-historical-stock-prices-1970-2018?fbclid=IwAR0mkRuSU1u5GSJDSBPmKbAsJa1gnfJ7GSjYOxuSrqwMwFfNa0UgUzKfhUk)
+source [Stock-Prices](https://www.kaggle.com/ehallmar/daily-historical-stock-prices-1970-2018?fbclid=IwAR0mkRuSU1u5GSJDSBPmKbAsJa1gnfJ7GSjYOxuSrqwMwFfNa0UgUzKfhUk)
 
 ## Objetivos
-Com este estudo pretende-se realizar uma uma previsão do número stock prices e de quais os preços dos stocks tal como volumes de ações existem por empresas. Para além disso avaliar os setores das empresas predominantes no mercado como outros fatores.
-Em primeiro lugar, tentar enriquecer o dataset com  todas as informações que conseguirmos encontrar que nos ajudem a melhorar a previsão dos stocks para determinadas empresas. 
-Posteriormente utilizar vários modelos tradicionais de machine learning para prever estes stocks prices como modelos lineares, árvores de decisão e SVM.
-Em segundo lugar, recorrer à utilização de DeepLearning, nomeadamente RNN para comparar resultados com o primeiro modelo e tirar conclusões.
-Por último, proceder ao tunning dos nossos modelos e retirar conclusões pertinentes.
+This study intends to make a forecast of the number of stock prices and of which stock prices as well as stock volumes exist by companies. One of the main objectives is also to analyze the best and most appropriate algorithms for this situation, especially DeepLearning agorithms. In addition, evaluate the sectors of the companies predominant in the market as other factors.
+First of all, we intend to enrich the dataset with all the information we can find that will help us to improve stock forecasting for certain companies.
+Subsequently, use several traditional machine learning models to predict these stock prices as linear models, decision trees and SVM.
+Second, use DeepLearning algorithms, namely RNN to compare results with the first model and draw conclusions.
+Finally, tune our models and draw relevant conclusions.
 
 ## historical_stocks
 
@@ -23,12 +23,12 @@ Por último, proceder ao tunning dos nossos modelos e retirar conclusões pertin
 |  3				  |  FLWS				|	NASDAQ		|	1-800 FLOWERS.COM, INC.		 			| CONSUMER SERVICES	 | OTHER SPECIALTY STORES 	  |
 |  4				  |  FCCY				|	NASDAQ		|	1ST CONSTITUTION BANCORP (NJ)			| FINANCE	 		 | SAVINGS INSTITUTIONS 	  |
 
-O dataset é constituido por 5 colunas:
-* **ticker** corresponde ao nome das ações
-* **exchange** corresponde ao tipo de troca efetuada
-* **name** refere-se ao nome da empresa
-* **sector** refere-se ao setor real em que a empresa em questão opera
-* **industry** especifica o tipo de serviços que podem ser fornecidos pela empresa
+We realize there are 5 columns and this dataset:
+* **ticker** corresponds to the name of the share
+* **exchange** corresponds to the type of exchange made
+* **name** refers the company's name
+* **sector** refers to the actual sector where the given company operates
+* **industry** specifies the type of services that can be provided
 
 ## historical_stock_prices
 
@@ -47,28 +47,28 @@ O dataset é constituido por 5 colunas:
 |  20973888			  |  NZF				|	14.60	|	14.69	| 	14.690000  |  14.59  | 14.69  |  180900 |  2018-08-24  |
 
 
-O dataset é constituido por 8 colunas:
-* **ticker** corresponde ao nome das ações
-* **open** descreve o preço de abertura dessa ações num dia específico
-* **close** descreve o preço final das ações no final de um dia
-* **adj-close** descreve o preço ajustado de uma ações, que normalmente é diferente do preço de fecho da mesma
-	- Um exemplo disto é quando ocorre uma divisão de stock. Um split de ações é a maneira utilizada pelas empresas para vender mais stocks, utilizando(x) como referência, se x = 2; se uma ação = 10 €, quando ocorrer o split, com um split = 2, a ação é igual a 5 €, mas no final essas 2 ações representam o mesmo que 1 ação, por exemplo, uma empresa tem 10 ações, se comprar 1 ação, terá 1% da empresa, num split de ações (split = 2), se comprar 2 ações, terá apenas 1% das duas empresas.
-	- o preço das ações normalmente é afetado pela oferta e demanda dos participantes do mercado. No entanto, algumas ações corporativas, como split de ações, dividendos / distribuições e ofertas de direitos, podem afetar o preço de uma ação e são necessários ajustes para chegar a um valor tecnicamente preciso do verdadeiro valor dessa ação.
-* **low** é o menor valor pago por essa ação
-* **high** é o valor mais alto pago por essa ação
-* **volume** representa o volume de ações compradas naquele dia
-* **date** representa a data (ano-mês-dia)
+This dataset contains 8 columns:
+* **ticker** corresponds to the name of the share
+* **open** describe the open price of that share in a specific day
+* **close** describe the final share price in the end of a day
+* **adj-close**  it´s a tricky column, describes the ajudsted price of a share, thats normally different from the close price
+	- An example of this, is when a stock splits occur. A stock split it's a current way used for compannies to sell more stocks, by diving the price in (x), lets say x = 2, then if one share = 10€, then, when stock split occurs, let say with a split=2, the share is equal to 5€, but in the end this 2 shares represent the same as 1 share, e.g, imagine that the companny have 10 shares, if you buy 1 share you have 1% of the company, in a stock split(split=2), if you buy 2 shares you only have 1% of the comapnny two.
+	- A stock's price is typically affected by supply and demand of market participants. However, some corporate actions, such as stock splits, dividends / distributions and rights offerings can affect a stock's price and adjustments are needed to arrive at a technically accurate reflection of the true value of that stock.
+* **low** is the lowest value paid for that share
+* **high** is the highest value paid for that share
+* **volume** represents the shares purchased in that day
+* **date** represents the date (year-month-day)
 
 
 
-# Algoritmos Machine Learning 
+# Machine Learning Algorithms
 
 1. Linear Regression
 2. Support Vectors Classifers for Regression SVR
 3. Decisions Tree / Random Forest
 4. Recurrent Neural Networks (RNN) / LSTM
 
-# Grupo
+# Group
 
 * André Guilherme Nunes Viveiros - a81736
 * Guilherme Marques Andrade – a80426
