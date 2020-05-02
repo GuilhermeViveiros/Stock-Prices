@@ -6,10 +6,14 @@ Two Datasets were used:
 source [Stock-Prices](https://www.kaggle.com/ehallmar/daily-historical-stock-prices-1970-2018?fbclid=IwAR0mkRuSU1u5GSJDSBPmKbAsJa1gnfJ7GSjYOxuSrqwMwFfNa0UgUzKfhUk)
 
 ## Objetivos
-This study intends to make a forecast of the number of stock prices and of which stock prices as well as stock volumes exist by companies. One of the main objectives is also to analyze the best and most appropriate algorithms for this situation, especially DeepLearning agorithms. In addition, evaluate the sectors of the companies predominant in the market as other factors.
-First of all, we intend to enrich the dataset with all the information we can find that will help us to improve stock forecasting for certain companies.
-Subsequently, use several traditional machine learning models to predict these stock prices as linear models, decision trees and SVM.
-Second, use DeepLearning algorithms, namely RNN to compare results with the first model and draw conclusions.
+This study intends to make a forecast prediction of the adjusted closed price of several companies. 
+First of all, we intend to analyze the dataset, evaluate the sectors of the predominant companies on the market as other factors as volume stocks, open prices.. all features that can be possible correlated with what we want to predict.
+In adition, if necessary we intend to enrich the dataset with all the information we can find that will help us to improve stock forecasting for certain companies.
+
+
+Subsequently, use several traditional machine learning models to predict these adjusted closed prices such as linear models, decision trees, SVM...
+Secondly, use Deep Learning algorithms, namely RNN and LSTM/GRU to compare results with the first approach.
+
 Finally, tune our models and draw relevant conclusions.
 
 ## historical_stocks
