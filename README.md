@@ -68,7 +68,7 @@ This dataset contains 8 columns:
 # Machine Learning Algorithms
 
 1. Linear Regression
-2. Support Vectors Classifers for Regression SVR
+2. Support Vectors Regression SVR
 3. Decisions Tree / Random Forest
 4. Recurrent Neural Networks (RNN) / LSTM
 
