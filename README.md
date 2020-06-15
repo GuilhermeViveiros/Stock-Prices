@@ -5,7 +5,7 @@ Two Datasets were used:
 
 source [Stock-Prices](https://www.kaggle.com/ehallmar/daily-historical-stock-prices-1970-2018?fbclid=IwAR0mkRuSU1u5GSJDSBPmKbAsJa1gnfJ7GSjYOxuSrqwMwFfNa0UgUzKfhUk)
 
-## Objetivos
+## Objectives
 This study intends to make a forecast prediction of the adjusted closed price of several companies. 
 First of all, we intend to analyze the dataset, evaluate the sectors of the predominant companies on the market as other factors as volume stocks, open prices.. all features that can be possible correlated with what we want to predict.
 In adition, if necessary we intend to enrich the dataset with all the information we can find that will help us to improve stock forecasting for certain companies.
@@ -68,7 +68,7 @@ This dataset contains 8 columns:
 # Machine Learning Algorithms
 
 1. Linear Regression
-2. Support Vectors Classifers for Regression SVR
+2. Support Vectors Regression SVR
 3. Decisions Tree / Random Forest
 4. Recurrent Neural Networks (RNN) / LSTM
 
