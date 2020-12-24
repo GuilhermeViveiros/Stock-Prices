@@ -73,8 +73,8 @@ This dataset contains 8 columns:
 
 # Group
 
-* André Guilherme Nunes Viveiros - a80524
-* Guilherme Marques Andrade – a80426
-* Rodrigo Teixeira Pereira – pg38424
+* André Guilherme Nunes Viveiros - [LinkedIn](https://www.linkedin.com/in/guilherme-viveiros-28985418b/)
+* Guilherme Marques Andrade
+* Rodrigo Teixeira Pereira
 
 
