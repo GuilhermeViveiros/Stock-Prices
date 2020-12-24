@@ -3,7 +3,7 @@ Two Datasets were used:
 * historical_stock_prices
 * historical_stocks
 
-source [Stock-Prices](https://www.kaggle.com/ehallmar/daily-historical-stock-prices-1970-2018?fbclid=IwAR0mkRuSU1u5GSJDSBPmKbAsJa1gnfJ7GSjYOxuSrqwMwFfNa0UgUzKfhUk)
+This two datasets are allocated on kaggle: source [Stock-Prices](https://www.kaggle.com/ehallmar/daily-historical-stock-prices-1970-2018?fbclid=IwAR0mkRuSU1u5GSJDSBPmKbAsJa1gnfJ7GSjYOxuSrqwMwFfNa0UgUzKfhUk)
 
 ## Objectives
 This study intends to make a forecast prediction of the adjusted closed price variation of several companies. 
