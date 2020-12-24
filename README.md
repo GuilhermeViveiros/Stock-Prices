@@ -6,13 +6,12 @@ Two Datasets were used:
 This two datasets are allocated on kaggle: source [Stock-Prices](https://www.kaggle.com/ehallmar/daily-historical-stock-prices-1970-2018?fbclid=IwAR0mkRuSU1u5GSJDSBPmKbAsJa1gnfJ7GSjYOxuSrqwMwFfNa0UgUzKfhUk)
 
 ## Objectives
-This study intends to make a forecast prediction of the adjusted closed price variation of several companies. 
-First of all, we intend to analyze the dataset, evaluate the sectors of the predominant companies on the market as other factors as volume stocks, open prices.. all features that can be possible correlated with what we want to predict.
-In adition, if necessary we intend to enrich the dataset with all the information we can find that will help us to improve stock forecasting for certain companies.
+This study intends to make a forecast prediction of the adjusted closed price variation of several companies.\ 
+We intend to analyze the dataset, evaluate the sectors of the predominant companies on the market, such as other factors like volume stocks, open prices.. all features that are possible correlated with the target one.
+Additionally, we intend to enrich the dataset with all the information we can find that will help us to improve stock forecasting for certain companies.
 
 
-Subsequently, use several traditional machine learning models to predict these adjusted closed prices such as linear models, decision trees, SVM...
-Secondly, use Deep Learning algorithms, namely RNN and LSTM/GRU to compare results with the first approach.
+Subsequently, we pretend to evaluate the performance of traditional machine learning approaches such as linear models, decision trees, support-vector-machines against Deep Learning algorithms, namely LSTM & GRU.
 
 Finally, tune our models and draw relevant conclusions.
 
